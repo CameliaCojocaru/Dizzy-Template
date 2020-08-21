@@ -5,7 +5,7 @@
 }
 body
 {
-	font-family: sans-serif;
+	font-family:'Poppins', sans-serif;
 }
 #nav-bar
 {
@@ -32,8 +32,8 @@ body
 {
 	color: #fff !important;
 	font-weight: 600;
-	float: right;
-	text-align: left;
+	/* float: right; */
+	text-align: center;
 }
 .fa-bars
 {
@@ -54,7 +54,6 @@ body
 
 #banner
 {
-	
 	background-image: linear-gradient( to right, #999999, #000000) ;
 	color:  #fff;
 	padding-top: 5%; 
@@ -78,15 +77,9 @@ body
 }
 .home-img
 {
-	/* margin: 5px;
-	height:100%;
-	padding-top:100%;
-	float: right; */
-	display: block;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    width: 100%;
-	
+	margin: 5px;
+	width:100%;
+	float: right;
 }
 .wave-img
 {
@@ -114,7 +107,7 @@ body
 	margin-top: 25px;
 	text-transform: uppercase;
 }
-.title::before
+/* .title::before
 {
 	content: '';
 	background: #404040;
@@ -124,8 +117,8 @@ body
 	margin-right: auto;
 	display: block;
 	transform: translateY(63px);
-}
-.title::after
+} */
+/* .title::after
 {
 	content: '';
 	background: #404040;
@@ -136,7 +129,7 @@ body
 	margin-bottom: 40px;
 	display: block;
 	transform: translateY(8px);
-}
+} */
 #services .btn-primary
 {
 	box-shadow: none;
@@ -195,7 +188,7 @@ body
 /*--------------------------SECTION SOCIAL--------------*/
 #social-media
 {
-	background: #f8f9fa;
+	background: #fff;
 	padding: 100px 0;
 }
 #social-media p
@@ -245,6 +238,7 @@ height: 75px;
 	text-align: center;
 	padding-top: 7px;
 	border-top: 2px;
+	border-radius: 25px;
 	background-image: linear-gradient( to right, #999999, #000000);
 }
 .footer-box .form-control
@@ -259,7 +253,7 @@ height: 75px;
 {
 	box-shadow:none !important;
 	border: none;
-	border-radius: 0;
+	border-radius: 20px;
 	margin-top: 30px;
 	background-image: linear-gradient( to right, #999999, #000000);
 }
