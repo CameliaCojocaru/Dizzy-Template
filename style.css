@@ -35,6 +35,10 @@ body
 	/* float: right; */
 	text-align: center;
 }
+.navbar-nav li a:hover
+{
+	opacity: 0.5;
+}
 .fa-bars
 {
 	color: #fff;
@@ -63,12 +67,18 @@ body
 	font-size: 40px;
 	font-weight: 600;
 	margin-top: 100px;
+	text-shadow: 2px 2px 5px black;
 
 }
 .play-logo
 {
-	height: 45px;
+	height: 60px;
 	margin: 20px;
+}
+
+.play-logo:hover
+{
+	opacity:0.5;
 }
 #banner a
 {
@@ -137,6 +147,10 @@ body
 	border: none;
 	border-radius: 20px;
 	background-image: linear-gradient( to right, #999999, #000000) ;
+}
+#services .btn-primary:hover
+{
+opacity:0.5;
 }
 /*--------------------------SECTION DESPRE NOI--------------*/
 
