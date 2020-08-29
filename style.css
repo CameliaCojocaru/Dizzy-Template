@@ -199,6 +199,12 @@ opacity:0.5;
 	font-size: 12px;
 }
 
+.testimonials p
+{
+	font-style: italic;
+	/*font-weight: bold;*/
+}
+
 /*--------------------------SECTION SOCIAL--------------*/
 #social-media
 {
